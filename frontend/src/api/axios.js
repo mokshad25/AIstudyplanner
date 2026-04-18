@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const API_URL = "https://aistudyplanner-do1a.onrender.com";
+
 const api = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: API_URL,
 });
 
 // Request interceptor to add the bearer token
